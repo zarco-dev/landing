@@ -1,0 +1,28 @@
+.card img{
+  width: 200px;
+  object-fit: cover;
+  transition: .2s;
+}
+
+.card{
+box-shadow: 0 1px 5px rgba(210, 208, 208, 0.347);
+width: 30%;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+background-color: #fbe5cc75;
+border-radius: 25px;
+
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.card:hover img{
+  transform: scale(1.18);
+  cursor: pointer;
+  margin-bottom: 20px;
+}

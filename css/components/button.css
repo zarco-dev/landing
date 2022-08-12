@@ -1,0 +1,13 @@
+.banner-info button{
+  padding: 10px 30px;
+  border-radius: 17px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #FD7171 ;
+}
+
+.banner-info button:hover{
+  background-color: #FD815E;
+  cursor: pointer;
+}
